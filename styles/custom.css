@@ -1,0 +1,78 @@
+.stApp {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.news-table {
+    font-size: 14px;
+    width: 100%;
+}
+
+.sentiment-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.last-updated {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.loading-spinner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Clickable link styles */
+a {
+    color: #1E88E5;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0D47A1;
+    text-decoration: underline;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+th {
+    background-color: #f8f9fa;
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #dee2e6;
+    white-space: normal;
+    line-height: 1.4;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Custom Streamlit styling */
+.stDataFrame {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.streamlit-expanderHeader {
+    font-size: 1rem;
+}
