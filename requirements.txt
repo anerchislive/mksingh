@@ -1,7 +1,7 @@
-1streamlit>=1.26.0
-2torch>=2.0.0
-3transformers>=4.33.0
-4gnews>=0.3.0
-5nltk>=3.8.1
-6pandas>=2.1.0
-7pytz>=2023.3
+streamlit
+torch
+transformers
+gnews
+nltk
+pandas
+pytz
